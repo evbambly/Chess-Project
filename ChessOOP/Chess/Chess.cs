@@ -278,7 +278,7 @@ namespace Chess
                             }
                             else if (i > 0 && j == 0)
                             {
-                                middle = ($" {relativeX}  ");
+                                middle = ($" {relativeX+1}  ");
                             }
                             else if (!(board[relativeX, j - 1] is EmptyTile))
                             {

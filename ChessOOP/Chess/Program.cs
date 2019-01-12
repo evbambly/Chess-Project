@@ -7,12 +7,8 @@ namespace Chess
     {
         public static void Main(string[] args)
         {
-            //Chess chess = new Chess();
-            //chess.Play();
-            //It's screwed!
-            Test.TestStaleMate(StaleMateTest.maxMoves);
-
-
+            Chess chess = new Chess();
+            chess.Play();
         }
         }
 }
